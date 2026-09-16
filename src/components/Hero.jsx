@@ -1,3 +1,5 @@
+import profileImg from '../assets/profile.png'
+
 export default function Hero() {
   const techPills = [
     { label: 'Java', color: '#2563eb' },
@@ -71,7 +73,7 @@ export default function Hero() {
           </div>
 
           <div className="avatar-inner">
-            <img src={`${import.meta.env.BASE_URL}profile.png`} alt="Vinay Tasare" className="avatar-photo" />
+            <img src={profileImg} alt="Vinay Tasare" className="avatar-photo" />
           </div>
 
           <div className="float-card fc-1">
