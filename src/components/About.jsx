@@ -61,6 +61,11 @@ export default function About() {
               I'm eager to keep learning and to contribute to real-world software that people
               actually rely on.
             </p>
+            <p>
+              This portfolio itself is a static site by design — the backend engineering is where
+              I put my effort, and you'll see that in the Healthcare Hub and Library Management
+              System projects below.
+            </p>
           </div>
 
           <div className="about-highlights">
@@ -78,4 +83,4 @@ export default function About() {
       </div>
     </section>
   )
-} 
+}
