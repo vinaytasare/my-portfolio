@@ -36,7 +36,7 @@ export default function Hero() {
 
           <div className="hero-actions">
             <a href="#projects" className="btn btn-primary">View My Work</a>
-            <a href="/resume.pdf" download className="btn btn-ghost">
+            <a href={`${import.meta.env.BASE_URL}resume.pdf`} download className="btn btn-ghost">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
               Resume
             </a>
@@ -59,19 +59,19 @@ export default function Hero() {
 
         <div className="avatar-wrap">
           <div className="avatar-ring">
-            <div className="avatar-inner">
-              <img src="/profile.png" alt="Vinay Tasare" className="avatar-photo" />
+            <div className="float-badge fb-1">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.7-4.3-9.3-8.2C1 10 1.6 6.6 4.4 5.1c2.4-1.3 4.9-.4 6.1 1.4l1.5 2 1.5-2c1.2-1.8 3.7-2.7 6.1-1.4 2.8 1.5 3.4 4.9 1.7 7.7C18.7 16.7 12 21 12 21z"/></svg>
+            </div>
+            <div className="float-badge fb-2">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div className="float-badge fb-3">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 17V7a2 2 0 0 1 2-2h9l5 5v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/></svg>
             </div>
           </div>
 
-          <div className="float-badge fb-1">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.7-4.3-9.3-8.2C1 10 1.6 6.6 4.4 5.1c2.4-1.3 4.9-.4 6.1 1.4l1.5 2 1.5-2c1.2-1.8 3.7-2.7 6.1-1.4 2.8 1.5 3.4 4.9 1.7 7.7C18.7 16.7 12 21 12 21z"/></svg>
-          </div>
-          <div className="float-badge fb-2">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="20 6 9 17 4 12"/></svg>
-          </div>
-          <div className="float-badge fb-3">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 17V7a2 2 0 0 1 2-2h9l5 5v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/></svg>
+          <div className="avatar-inner">
+            <img src={`${import.meta.env.BASE_URL}profile.png`} alt="Vinay Tasare" className="avatar-photo" />
           </div>
 
           <div className="float-card fc-1">
