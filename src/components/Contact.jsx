@@ -1,9 +1,6 @@
 import { useState } from 'react'
 
-// 1. Go to https://formspree.io and sign up (free).
-// 2. Create a new form — it'll give you an endpoint like https://formspree.io/f/xxxxxxx
-// 3. Paste that endpoint below, replacing the placeholder.
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID'
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mppwawvb'
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' })
