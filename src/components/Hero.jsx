@@ -60,25 +60,10 @@ export default function Hero() {
         </div>
 
         <div className="avatar-wrap">
-          <div className="avatar-ring">
-            <div className="float-badge fb-1">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.7-4.3-9.3-8.2C1 10 1.6 6.6 4.4 5.1c2.4-1.3 4.9-.4 6.1 1.4l1.5 2 1.5-2c1.2-1.8 3.7-2.7 6.1-1.4 2.8 1.5 3.4 4.9 1.7 7.7C18.7 16.7 12 21 12 21z"/></svg>
-            </div>
-            <div className="float-badge fb-2">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="20 6 9 17 4 12"/></svg>
-            </div>
-            <div className="float-badge fb-3">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 17V7a2 2 0 0 1 2-2h9l5 5v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/></svg>
-            </div>
-          </div>
+          <div className="avatar-ring"></div>
 
           <div className="avatar-inner">
             <img src={profileImg} alt="Vinay Tasare" className="avatar-photo" />
-          </div>
-
-          <div className="float-card fc-1">
-            <div className="float-num">2025</div>
-            <div className="float-label">CSE Grad</div>
           </div>
         </div>
       </div>

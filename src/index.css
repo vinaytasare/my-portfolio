@@ -91,9 +91,7 @@ nav{display:flex; align-items:center; justify-content:space-between; padding:16p
 .avatar-ring{
   position:absolute; inset:0; border-radius:50%;
   background:conic-gradient(from 0deg, var(--indigo), var(--purple), var(--pink), var(--indigo));
-  animation:ring-spin 6s linear infinite;
 }
-@keyframes ring-spin{to{transform:rotate(360deg);}}
 .avatar-inner{
   position:absolute; inset:6px; z-index:2;
   border-radius:50%; background:linear-gradient(135deg,#eef0ff,#fbe8f3);
@@ -110,14 +108,14 @@ nav{display:flex; align-items:center; justify-content:space-between; padding:16p
   display:flex; align-items:center; justify-content:center; color:#fff;
   box-shadow:var(--shadow); transform:translate(-50%,-50%);
 }
-.fb-1{background:#ec4899; left:50%; top:-12%;}
-.fb-2{background:#22c55e; left:103.7%; top:81%;}
-.fb-3{background:#6366f1; left:-3.7%; top:81%;}
+.fb-1{background:#ec4899; left:50%; top:0%;}
+.fb-2{background:#22c55e; left:93.3%; top:75%;}
+.fb-3{background:#6366f1; left:6.7%; top:75%;}
 .float-card{
-  position:absolute; background:var(--white); border-radius:14px; padding:16px 20px;
+  position:absolute; z-index:3; background:var(--white); border-radius:14px; padding:16px 20px;
   box-shadow:var(--shadow); text-align:center; border:1px solid var(--border);
 }
-.fc-1{top:8%; right:-12%;}
+.fc-1{top:6%; right:-16%;}
 .fc-2{bottom:2%; left:-14%;}
 .float-num{font-family:'Space Grotesk',sans-serif; font-weight:800; font-size:1.5rem; background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent;}
 .float-label{font-size:0.78rem; color:var(--muted); margin-top:2px;}
@@ -338,4 +336,3 @@ img, svg{max-width:100%; height:auto;}
 @media (prefers-reduced-motion: reduce){
   .reveal{opacity:1; transform:none; transition:none;}
 }
-
